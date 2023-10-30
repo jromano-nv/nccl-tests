@@ -1,7 +1,7 @@
 #pragma nv_diag_suppress declared_but_not_referenced
 
 #include "verifiable.h"
-#include <nccl.h>
+#include "nccl.h"
 
 #include <cuda_runtime.h>
 #include <cuda_fp16.h>
