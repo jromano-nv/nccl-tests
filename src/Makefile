@@ -65,7 +65,6 @@ endif
 ifeq ($(MPI), 1)
 NVCUFLAGS += -DMPI_SUPPORT -I$(MPI_HOME)/include
 NVLDFLAGS += -L$(MPI_HOME)/lib -L$(MPI_HOME)/lib64 -lmpi -lopen-pal -lopen-rte
-$(info ">>>>>   Setting MPI $(NVCUFLAGS)")
 endif
 
 ifeq ($(MPI_IBM),1)
